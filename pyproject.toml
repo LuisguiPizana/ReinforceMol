@@ -5,5 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "rdkit>=2025.3.3",
+   "gymnasium>=1.1.1",
+   "rdkit>=2025.3.3",
+   "torch>=2.7.1",
+   "torch-geometric>=2.6.1",
+   "tqdm>=4.67.1",
 ]
