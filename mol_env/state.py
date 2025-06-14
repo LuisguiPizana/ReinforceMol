@@ -31,7 +31,7 @@ def copy_molecule(mol: Chem.Mol) -> Chem.Mol:
 
 def sanitize_molecule(mol: Chem.Mol) -> bool:
     try:
-        Chem.Sanitize(mol)
+        Chem.SanitizeMol(mol)
         return True
     except Exception as e:
         print(f"Sanitization failed: {e}")
